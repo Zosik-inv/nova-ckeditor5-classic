@@ -102,7 +102,7 @@ export default {
             const uploadTargetHash = 'l1_Lw';
 
             // elFinder connector URL
-            const connectorUrl = 'php/connector.minimal.php';
+            const connectorUrl = '/elfinder/ckeditor';
 
             const ckf = editor.commands.get('ckfinder'),
                 fileRepo = editor.plugins.get('FileRepository'),
