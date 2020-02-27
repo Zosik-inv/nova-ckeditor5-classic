@@ -102,7 +102,7 @@ export default {
             const uploadTargetHash = 'l1_Lw';
 
             // elFinder connector URL
-            const connectorUrl = '/elfinder/ckeditor';
+            const connectorUrl = '/elfinder/connector';
 
             const ckf = editor.commands.get('ckfinder'),
                 fileRepo = editor.plugins.get('FileRepository'),
